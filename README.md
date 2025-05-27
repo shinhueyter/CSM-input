@@ -2,7 +2,7 @@
 
 `CSM-input` is a MATLAB script for reading and analysing Continuous Stiffness Measurement (CSM) nanoindentation maps from the Agilent G200 Nanoindenter. The output is a `.mat` file containing average hardness, modulus, and Nix-Gao fitting parameters: \( H_0 \) and \( h^* \).
 
-This script is adapted from [C. Magazzani’s `XPInputDeck.m`](https://github.com/cmmagazz/XPressImport/blob/master/XPInputDeck.m), originally developed for Express Test data. I modified it to support **CSM test data** and compute **Nix-Gao parameters** by analysing binned displacement–hardness data.
+This script is adapted from [C. Magazzani’s `XPInputDeck.m`](https://github.com/cmmagazz/XPressImport/blob/master/XPInputDeck.m), originally developed for Express Test data. I modified it to support **CSM test data** and compute **Nix-Gao parameters** by analysing binned displacement–hardness data. Only the `load_gridCSM` function was modified to read and process CSM data and extract Nix-Gao parameters.
 
 ## What the script does
 
@@ -21,3 +21,8 @@ This script is adapted from [C. Magazzani’s `XPInputDeck.m`](https://github.co
 ---
 
 **Note**: This script assumes all indentation data is stored in a single Excel file with each sheet corresponding to a test site in a snaking grid layout (left-to-right on odd rows, right-to-left on even rows).
+
+## Acknowledgement
+This script is adapted from XPInputDeck.m by C. Magazzani:
+https://github.com/cmmagazz/XPressImport
+Only the load_gridCSM function was modified to read and process CSM data and extract Nix-Gao parameters.
