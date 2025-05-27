@@ -25,4 +25,3 @@ This script is adapted from [C. Magazzani’s `XPInputDeck.m`](https://github.co
 ## Acknowledgement
 This script is adapted from XPInputDeck.m by C. Magazzani:
 https://github.com/cmmagazz/XPressImport
-Only the load_gridCSM function was modified to read and process CSM data and extract Nix-Gao parameters.
