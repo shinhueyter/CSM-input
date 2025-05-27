@@ -1,6 +1,6 @@
 %% This is the input deck, and the only file which should need editing
 % Here you will input the filepath, filename, and various details of the
-% express data
+% CSM data
 
 clear all
 close all
